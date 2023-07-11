@@ -1,0 +1,74 @@
+
+
+h1 {
+    font-family:'Open Sans', sans-serif;
+    
+}
+h3 {
+  text-align: center;
+}
+
+p  {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+    text-transform: capitalize;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+  }
+
+   span a {
+    color: #007bff;
+    text-decoration: none;
+
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .units {
+   font-size: 26px;
+   position: relative;
+   top: -40px;
+   left: -15px;
+  }
+
+.search-form {
+  display: block;
+  margin: 0px auto;
+  width: 500px;
+  position: relative;
+  left: -10px;
+  top: 110px;
+}
+.search-form .row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.weather-city-details{
+  position: relative;
+  top: 75px;
+}
+.content-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.main-current-details {
+  width: 150px;
+  position: relative;
+  left: 360px;
+  top: 150px;
+}
+.main-weather-details {
+  width: 150px;
+  position: relative;
+  left: 360px;
+  top: 20px;
+}
