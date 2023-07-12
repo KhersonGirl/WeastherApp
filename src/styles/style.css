@@ -23,11 +23,15 @@ p  {
 
    span a {
     color: #007bff;
-    text-decoration: none;
+    text-decoration: none
 
   }
   a:hover {
     text-decoration: underline;
+  }
+  .open-source-link {
+    text-decoration: none;
+    
   }
 
   .units {
