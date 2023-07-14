@@ -62,6 +62,7 @@ let fahrenheit = document.querySelector("#fahrenheit");*/
 //celcius.addEventListener("click", convertCelsius);
 
 function showWeather(response) {
+  console.log(response);
   let temperature = Math.round(response.data.main.temp);
   let temp = document.querySelector("#temp");
   let currentCity = response.data.name;
@@ -69,7 +70,8 @@ function showWeather(response) {
   let humidity = response.data.main.humidity;
   let pressure = response.data.main.pressure;
   let windSpeed = Math.round(response.data.wind.speed);
-  
+
+ 
 
   description = document.querySelector("#weather-description");
   h2 = document.querySelector("h2");
